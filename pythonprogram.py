@@ -1,5 +1,6 @@
-#Programm um die APP-Mqtt Verbindung mit dem Computer zu testen
 import time
+import random
+
 from paho.mqtt import client as mqtt
 
 def on_message(client, userdata, message):
